@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My School</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My School</h1>
+        <p>Inspiring Minds, Shaping Futures</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#academics">Academics</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Our school is dedicated to providing a nurturing environment where students can excel academically, socially, and creatively.</p>
+    </section>
+    <section id="academics">
+        <h2>Academics</h2>
+        <p>We offer a variety of programs designed to cater to the diverse needs of our students, ensuring they reach their full potential.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@myschool.edu</p>
+        <p>Phone: +123-456-7890</p>
+        <p>Address: 123 Education Lane, Knowledge City</p>
+    </section>
+    <footer>
+        <p>© 2024 My School | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
